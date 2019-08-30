@@ -1,0 +1,43 @@
+// ejercicio 20: Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+  float m,d1,d2,d3,d4;
+  cout<<"introducir el monto";
+  cin>>m;
+  if(m>0&&m<=500)
+  {
+    d1=m*0;
+  }
+  cout<<"descuanto total"<<endl;
+  cout<<d1;
+  
+  else(m>5001&&m<=1000)
+  {
+    d2=m*0.05;
+  }
+  cout<<"descuanto total"<<endl;
+  cout<<d2;
+
+  if(m>1001&&m<=2000)
+  {
+    d3=m*0.10;
+  }
+  cout<<"descuanto total"<<endl;
+  cout<<d3;
+  
+  else(m<2001)
+  {
+    d4=m*0.20;
+  }
+  cout<<"descuanto total"<<endl;
+  cout<<d4;
+
+ getch();
+}
