@@ -1,0 +1,20 @@
+// suma: Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+   float suma,x,y;
+   cout<<"ingresar el valor de x";
+   cin>> x;
+   cout<<"ingresar el valor de y";
+   cin>> y;
+   suma=x+y;
+   cout<<"la suma de los valores de ""x" y "y":"<<endl;
+   cout<<Area<<"centimetro cuadrados";
+   getch();
+}
